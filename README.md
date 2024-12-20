@@ -7,10 +7,10 @@
     - [Jupyter Notebooks](#jupyter-notebooks)  
     - [Datasets](#datasets)  
 4. [Techniques Used](#techniques-used)  
-    - [Keyword Analysis](#1-keyword-analysis)  
-    - [Word Clouds](#2-word-clouds)  
+    - [Keyword Frequency Analysis Over the Years](#1-keyword-frequency-analysis-over-the-years)  
+    - [Word Clouds Comparison](#2-word-clouds-comparison)  
     - [Topic Modeling (LDA)](#3-topic-modeling-lda)  
-    - [Sentiment Analysis by Topic](#4-sentiment-analysis-by-topic)  
+    - [Sentiment Analysis by Topic and Rating Level](#4-sentiment-analysis-by-topic)  
 5. [Possible Applications for Others](#possible-applications-for-others)  
 
 ## **Background Information**
@@ -55,12 +55,12 @@ Through this project, we aimed to answer a core question: How can Everyday Fitne
 
 ## **Techniques Used**
 
-### 1. **Keyword Analysis**
+### 1. **Keyword Frequency Analysis Over the Years**
 - **Purpose:** Identify recurring themes, strengths, and weaknesses from the reviews.
 - **Methods:** Word tokenization and frequency counts.
 - **Tools:** `CountVectorizer`, Python libraries like `nltk` or `spaCy`.
 
-### 2. **Word Clouds**
+### 2. **Word Clouds Comparison**
 - **Purpose:** Visualize common words in positive (4–5 stars) and negative (1–2 stars) reviews to contrast key themes.
 - **Tools:** Python `WordCloud` library.
 
@@ -73,7 +73,7 @@ Through this project, we aimed to answer a core question: How can Everyday Fitne
 - **Tools:**  
   - `gensim` library for LDA implementation
     
-### 4. **Sentiment Analysis by Topic**
+### 4. **Sentiment Analysis by Topic and Rating Level**
 - **Purpose:** Measure the polarity of sentiment for specific topics (e.g., equipment, classes, staff).
 - **Process:**
   - Extracted topics using LDA.
