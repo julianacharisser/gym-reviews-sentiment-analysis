@@ -11,7 +11,7 @@
     - [Word Clouds](#2-word-clouds)  
     - [Topic Modeling using LDA](#3-topic-modeling-using-lda)  
     - [Sentiment Analysis](#4-sentiment-analysis)  
-5. [Possible Applications for Others](#possible-applications-for-others)  
+5. [Broader Use Cases of this Project](#broader-use-case-of-this-project)  
 
 ## **Background Information**
 In the competitive fitness industry, customer satisfaction and workout efficiency are critical to member retention and overall success. Everyday Fitness aims to differentiate itself by addressing members' concerns and improving their gym experience. To achieve this, we conducted a data-driven analysis, focusing on understanding how member experiences can be enhanced and workout efficiency increased.
@@ -85,7 +85,7 @@ Through this project, we aimed to answer a core question: How can Everyday Fitne
 
 ---
 
-## Possible Applications for Others
+## Broader Use Cases of this Project
 This project provides a robust framework for analyzing textual data using NLP techniques. The methods and tools can be adapted for a wide range of use cases across different industries. Below are some possible applications:
 
 ### 1. Feedback Form Analysis
