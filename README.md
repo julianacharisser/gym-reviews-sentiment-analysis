@@ -7,10 +7,10 @@
     - [Jupyter Notebooks](#jupyter-notebooks)  
     - [Datasets](#datasets)  
 4. [Techniques Used](#techniques-used)  
-    - [Keyword Frequency Analysis Over the Years](#1-keyword-frequency-analysis-over-the-years)  
-    - [Word Clouds Comparison](#2-word-clouds-comparison)  
-    - [Topic Modeling (LDA)](#3-topic-modeling-lda)  
-    - [Sentiment Analysis by Topic and Rating Level](#4-sentiment-analysis-by-topic)  
+    - [Keyword Frequency Analysis](#1-keyword-frequency-analysis)  
+    - [Word Clouds](#2-word-clouds)  
+    - [Topic Modeling using LDA](#3-topic-modeling-using-lda)  
+    - [Sentiment Analysis](#4-sentiment-analysis)  
 5. [Possible Applications for Others](#possible-applications-for-others)  
 
 ## **Background Information**
@@ -55,16 +55,16 @@ Through this project, we aimed to answer a core question: How can Everyday Fitne
 
 ## **Techniques Used**
 
-### 1. **Keyword Frequency Analysis Over the Years**
+### 1. **Keyword Frequency Analysis**
 - **Purpose:** Identify recurring themes, strengths, and weaknesses from the reviews.
 - **Methods:** Word tokenization and frequency counts.
 - **Tools:** `CountVectorizer`, Python libraries like `nltk` or `spaCy`.
 
-### 2. **Word Clouds Comparison**
+### 2. **Word Clouds**
 - **Purpose:** Visualize common words in positive (4–5 stars) and negative (1–2 stars) reviews to contrast key themes.
 - **Tools:** Python `WordCloud` library.
 
-### 3. **Topic Modeling (LDA)**
+### 3. **Topic Modeling using LDA**
 - **Purpose:** Discover hidden themes in customer reviews to understand common concerns and strengths.  
 - **Methods:** Applied Latent Dirichlet Allocation (LDA) to uncover underlying topics, such as "equipment," "classes," and "staff."  
 - **Process:**  
@@ -73,7 +73,7 @@ Through this project, we aimed to answer a core question: How can Everyday Fitne
 - **Tools:**  
   - `gensim` library for LDA implementation
     
-### 4. **Sentiment Analysis by Topic and Rating Level**
+### 4. **Sentiment Analysis**
 - **Purpose:** Measure the polarity of sentiment for specific topics (e.g., equipment, classes, staff).
 - **Process:**
   - Extracted topics using LDA.
